@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Toolbox">
+      <UniqueIdentifier>{398143a3-a531-4156-9b4f-c1fec926d26f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Toolbox">
+      <UniqueIdentifier>{f5edc5cb-cc39-4340-a334-0af37c596a6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Net">
+      <UniqueIdentifier>{b0367581-59dc-4ce2-baab-2073b2e524de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Net">
+      <UniqueIdentifier>{afaa7e04-61ac-47f7-a7f1-5c3c88b9ba17}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\General.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\NetCore.h">
+      <Filter>Header Files\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Debug.h">
+      <Filter>Header Files\Toolbox</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Patcher.h">
+      <Filter>Header Files\Toolbox</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\NetPacket.h">
+      <Filter>Header Files\Net</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\General.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\NetCore.cpp">
+      <Filter>Source Files\Net</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Debug.cpp">
+      <Filter>Source Files\Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Patcher.cpp">
+      <Filter>Source Files\Toolbox</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CossacksHijaking.licenseheader" />
+  </ItemGroup>
+</Project>

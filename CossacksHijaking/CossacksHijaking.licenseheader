@@ -1,0 +1,11 @@
+﻿extensions: .cpp .h .hpp
+/* Cossacks hijaking exploit example (special for Habrahabr)
+ *
+ * project:	%Project%
+ * file:    %FileName%
+ *
+ * author:  %UserName%
+ * date:    %CurrentDay%.%CurrentMonth%.%CurrentYear% %CurrentTime%
+ *
+ * note:    
+ */
